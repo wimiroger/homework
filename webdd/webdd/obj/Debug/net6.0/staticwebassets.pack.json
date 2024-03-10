@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icofont.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\plugin-collection.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugin-collection.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\swiper-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.ttf"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\swiper-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.woff"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\fonts\\swiper-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.woff2"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\about\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\about\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\about\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\03.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\03.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\m01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\m01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\m02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\m02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\m03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\m03.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\m04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\m04.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\m05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\m05.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\post-detail-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-detail-01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\post-detail-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-detail-02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\r01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\r01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\r02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\r02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\s01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\s01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\s02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\s02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\blog\\s03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\s03.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\brand-logo\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\01.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\brand-logo\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\02.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\brand-logo\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\03.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\brand-logo\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\04.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\brand-logo\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\05.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\cases\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cases\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\cases\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cases\\02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\faq\\answer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq\\answer.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\faq\\answer2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq\\answer2.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\faq\\faq.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq\\faq.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\faq\\faq2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq\\faq2.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\faq_black.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq_black.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\home.png",
+      "PackagePath": "staticwebassets\\assets\\img\\home.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\icons\\calender.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\calender.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\icons\\cancel-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cancel-white.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\icons\\eye.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\eye.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\icons\\layer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\layer.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\icons\\select-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\select-arrow.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\info.png",
+      "PackagePath": "staticwebassets\\assets\\img\\info.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-light.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\logo-light3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-light3.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo2.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo3.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\order.png",
+      "PackagePath": "staticwebassets\\assets\\img\\order.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\about-bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\about-bg1.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\cancel-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\cancel-white.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\department-s1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\department-s1.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\department-s2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\department-s2.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\doctor-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\doctor-01.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\doctor-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\doctor-02.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\photos\\testimonial-bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\testimonial-bg1.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\shape\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shape\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\slider\\main-slide-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\main-slide-01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\slider\\main-slide-01_bk.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\main-slide-01_bk.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\slider\\main-slide-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\main-slide-02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\team\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\team\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\team\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\03.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\testimonial\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\01.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\testimonial\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\02.jpg"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\img\\united.png",
+      "PackagePath": "staticwebassets\\assets\\img\\united.png"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\jquery-main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-main.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\jquery-migrate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-migrate.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\plugincollection.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugincollection.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\_tableofcontent.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_tableofcontent.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\common\\_imported.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_imported.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\common\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\common\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\common\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_typography.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\common\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\footer\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\footer\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\header\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\header\\_header.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_about.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_brand-logo.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_brand-logo.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_case.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_case.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_common.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_department.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_department.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_divider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_divider.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_feature.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_feature.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_form.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_gallery.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_gallery.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_icon-box.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_icon-box.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_pricing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_pricing.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_service.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_service.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_team.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_team.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\mexi\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\mexi\\_testimonial.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\pages\\_home-default.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\pages\\_home-default.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Roger個人\\Homework\\homework\\webdd\\webdd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.webdd.props",
+      "PackagePath": "build\\webdd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.webdd.props",
+      "PackagePath": "buildMultiTargeting\\webdd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.webdd.props",
+      "PackagePath": "buildTransitive\\webdd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.webdd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,25 @@
+﻿@model webdd.Models.Products
+
+@{
+    Layout = null; // 確保不使用 _Layout.cshtml
+}
+
+<div>
+    <h2>Details</h2>
+
+    <div>
+        <strong>商品:</strong> @Model.ProductName
+    </div>
+    <div>
+        <strong>品牌:</strong> @Model.Brand
+    </div>
+    <div>
+        <strong>種類:</strong> @Model.Category
+    </div>
+    <div>
+        <strong>價格:</strong> @Model.Price
+    </div>
+
+    <a asp-action="Edit" asp-route-id="@Model.Id">修改</a> |
+    <a asp-action="Index">返回</a>
+</div>

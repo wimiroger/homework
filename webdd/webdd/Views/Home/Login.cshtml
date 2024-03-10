@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "登入";
+}
+
+@{
+    Layout = null; // 確保不使用 _Layout.cshtml
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}
+
+<!--== Favicon ==-->
+<link rel="shortcut icon" href="~/assets/img/favicon.ico" type="image/x-icon" />
+
+<!--== Main Style CSS ==-->
+<link href="~/assets/css/style.css" rel="stylesheet" />
+
+<!--=== Modernizr Min Js ===-->
+<script src="~/assets/js/modernizr.js"></script>
+<!--=== jQuery Min Js ===-->
+<script src="~/assets/js/jquery-main.js"></script>
+<!--=== jQuery Migration Min Js ===-->
+<script src="~/assets/js/jquery-migrate.js"></script>
+<!--=== Popper Min Js ===-->
+<script src="~/assets/js/popper.min.js"></script>
+<!--=== Bootstrap Min Js ===-->
+<script src="~/assets/js/bootstrap.min.js"></script>
+<!--=== jquery UI Min Js ===-->
+<script src="~/assets/js/jquery-ui.min.js"></script>
+<!--=== Plugin Collection Js ===-->
+<script src="~/assets/js/plugincollection.js"></script>
+<!--=== Custom Js ===-->
+<script src="~/assets/js/custom.js"></script>
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+
+    <div class="form-group">
+        <label for="Username">帳號</label>
+        <input type="text" class="form-control" id="Username" name="Username" placeholder="請輸入帳號" required>
+    </div>
+    <div class="form-group">
+        <label for="Password">密碼</label>
+        <input type="password" class="form-control" id="Password" name="Password" placeholder="請輸入密碼" required>
+    </div>
+    <div class="form-group">
+        <label for="Captcha">驗證碼</label>
+        <img src="@Url.Action("GetCaptchaImage", "Home")" alt="驗證碼" onclick="this.src='@Url.Action("GetCaptchaImage", "Home")?' + Math.random()">
+        <input type="text" class="form-control" id="Captcha" name="Captcha" placeholder="請輸入驗證碼" required>
+    </div>
+    <button type="submit" class="btn btn-primary">登入</button>
+
+    <BR></BR>
+
+<h2>使用google sso登入</h2>
+    <div id="g_id_onload"
+         data-client_id="331387299829-q92vn2c5igad7ckni4q4cr6cfcvv4nh9.apps.googleusercontent.com"
+         data-login_uri="https://localhost:5016/Home/ValidGoogleLogin"
+         data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin"
+         data-type="standard"
+         data-size="large"
+         data-theme="outline"
+         data-text="sign_in_with"
+         data-shape="rectangular"
+         data-logo_alignment="left">
+    </div>
+
+

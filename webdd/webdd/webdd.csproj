@@ -1,0 +1,544 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Product\assets\css\animate.css" />
+    <None Remove="Views\Product\assets\css\aos.css" />
+    <None Remove="Views\Product\assets\css\bootstrap.min.css" />
+    <None Remove="Views\Product\assets\css\icofont.css" />
+    <None Remove="Views\Product\assets\css\plugin-collection.css" />
+    <None Remove="Views\Product\assets\css\style.css" />
+    <None Remove="Views\Product\assets\css\swiper.min.css" />
+    <None Remove="Views\Product\assets\fonts\icofont.eot" />
+    <None Remove="Views\Product\assets\fonts\icofont.svg" />
+    <None Remove="Views\Product\assets\fonts\icofont.ttf" />
+    <None Remove="Views\Product\assets\fonts\icofont.woff" />
+    <None Remove="Views\Product\assets\fonts\icofont.woff2" />
+    <None Remove="Views\Product\assets\fonts\swiper-icons.ttf" />
+    <None Remove="Views\Product\assets\fonts\swiper-icons.woff" />
+    <None Remove="Views\Product\assets\fonts\swiper-icons.woff2" />
+    <None Remove="Views\Product\assets\img\about\01.jpg" />
+    <None Remove="Views\Product\assets\img\about\02.jpg" />
+    <None Remove="Views\Product\assets\img\about\03.jpg" />
+    <None Remove="Views\Product\assets\img\blog\01.jpg" />
+    <None Remove="Views\Product\assets\img\blog\02.jpg" />
+    <None Remove="Views\Product\assets\img\blog\03.jpg" />
+    <None Remove="Views\Product\assets\img\blog\m01.jpg" />
+    <None Remove="Views\Product\assets\img\blog\m02.jpg" />
+    <None Remove="Views\Product\assets\img\blog\m03.jpg" />
+    <None Remove="Views\Product\assets\img\blog\m04.jpg" />
+    <None Remove="Views\Product\assets\img\blog\m05.jpg" />
+    <None Remove="Views\Product\assets\img\blog\post-detail-01.jpg" />
+    <None Remove="Views\Product\assets\img\blog\post-detail-02.jpg" />
+    <None Remove="Views\Product\assets\img\blog\r01.jpg" />
+    <None Remove="Views\Product\assets\img\blog\r02.jpg" />
+    <None Remove="Views\Product\assets\img\blog\s01.jpg" />
+    <None Remove="Views\Product\assets\img\blog\s02.jpg" />
+    <None Remove="Views\Product\assets\img\blog\s03.jpg" />
+    <None Remove="Views\Product\assets\img\brand-logo\01.png" />
+    <None Remove="Views\Product\assets\img\brand-logo\02.png" />
+    <None Remove="Views\Product\assets\img\brand-logo\03.png" />
+    <None Remove="Views\Product\assets\img\brand-logo\04.png" />
+    <None Remove="Views\Product\assets\img\brand-logo\05.png" />
+    <None Remove="Views\Product\assets\img\cases\01.jpg" />
+    <None Remove="Views\Product\assets\img\cases\02.jpg" />
+    <None Remove="Views\Product\assets\img\favicon.ico" />
+    <None Remove="Views\Product\assets\img\icons\calender.png" />
+    <None Remove="Views\Product\assets\img\icons\cancel-white.png" />
+    <None Remove="Views\Product\assets\img\icons\eye.png" />
+    <None Remove="Views\Product\assets\img\icons\layer.png" />
+    <None Remove="Views\Product\assets\img\icons\select-arrow.png" />
+    <None Remove="Views\Product\assets\img\logo-light.png" />
+    <None Remove="Views\Product\assets\img\logo-light3.png" />
+    <None Remove="Views\Product\assets\img\logo.png" />
+    <None Remove="Views\Product\assets\img\logo2.png" />
+    <None Remove="Views\Product\assets\img\logo3.png" />
+    <None Remove="Views\Product\assets\img\photos\about-bg1.jpg" />
+    <None Remove="Views\Product\assets\img\photos\cancel-white.png" />
+    <None Remove="Views\Product\assets\img\photos\department-s1.jpg" />
+    <None Remove="Views\Product\assets\img\photos\department-s2.jpg" />
+    <None Remove="Views\Product\assets\img\photos\doctor-01.png" />
+    <None Remove="Views\Product\assets\img\photos\doctor-02.png" />
+    <None Remove="Views\Product\assets\img\photos\testimonial-bg1.jpg" />
+    <None Remove="Views\Product\assets\img\shape\01.jpg" />
+    <None Remove="Views\Product\assets\img\slider\main-slide-01.jpg" />
+    <None Remove="Views\Product\assets\img\slider\main-slide-01_bk.jpg" />
+    <None Remove="Views\Product\assets\img\slider\main-slide-02.jpg" />
+    <None Remove="Views\Product\assets\img\team\01.jpg" />
+    <None Remove="Views\Product\assets\img\team\02.jpg" />
+    <None Remove="Views\Product\assets\img\team\03.jpg" />
+    <None Remove="Views\Product\assets\img\testimonial\01.jpg" />
+    <None Remove="Views\Product\assets\img\testimonial\02.jpg" />
+    <None Remove="Views\Product\assets\js\bootstrap.min.js" />
+    <None Remove="Views\Product\assets\js\custom.js" />
+    <None Remove="Views\Product\assets\js\jquery-main.js" />
+    <None Remove="Views\Product\assets\js\jquery-migrate.js" />
+    <None Remove="Views\Product\assets\js\jquery-ui.min.js" />
+    <None Remove="Views\Product\assets\js\modernizr.js" />
+    <None Remove="Views\Product\assets\js\plugincollection.js" />
+    <None Remove="Views\Product\assets\js\popper.min.js" />
+    <None Remove="Views\Product\assets\scss\common\_imported.scss" />
+    <None Remove="Views\Product\assets\scss\common\_mixins.scss" />
+    <None Remove="Views\Product\assets\scss\common\_rfs.scss" />
+    <None Remove="Views\Product\assets\scss\common\_typography.scss" />
+    <None Remove="Views\Product\assets\scss\common\_variables.scss" />
+    <None Remove="Views\Product\assets\scss\footer\_footer.scss" />
+    <None Remove="Views\Product\assets\scss\header\_header.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_about.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_banner.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_blog.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_brand-logo.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_case.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_common.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_contact.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_department.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_divider.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_feature.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_form.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_gallery.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_icon-box.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_navbar.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_pricing.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_service.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_team.scss" />
+    <None Remove="Views\Product\assets\scss\mexi\_testimonial.scss" />
+    <None Remove="Views\Product\assets\scss\pages\_home-default.scss" />
+    <None Remove="Views\Product\assets\scss\style.scss" />
+    <None Remove="Views\Product\assets\scss\_tableofcontent.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Product\assets\css\animate.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\aos.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\icofont.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\plugin-collection.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\style.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\css\swiper.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\icofont.eot">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\icofont.svg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\icofont.ttf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\icofont.woff">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\icofont.woff2">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\swiper-icons.ttf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\swiper-icons.woff">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\fonts\swiper-icons.woff2">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\about\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\about\02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\about\03.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\03.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\m01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\m02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\m03.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\m04.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\m05.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\post-detail-01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\post-detail-02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\r01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\r02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\s01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\s02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\blog\s03.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\brand-logo\01.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\brand-logo\02.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\brand-logo\03.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\brand-logo\04.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\brand-logo\05.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\cases\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\cases\02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\favicon.ico">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\icons\calender.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\icons\cancel-white.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\icons\eye.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\icons\layer.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\icons\select-arrow.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\logo-light.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\logo-light3.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\logo.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\logo2.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\logo3.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\about-bg1.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\cancel-white.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\department-s1.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\department-s2.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\doctor-01.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\doctor-02.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\photos\testimonial-bg1.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\shape\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\slider\main-slide-01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\slider\main-slide-01_bk.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\slider\main-slide-02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\team\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\team\02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\team\03.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\testimonial\01.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\img\testimonial\02.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\bootstrap.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\custom.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\jquery-main.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\jquery-migrate.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\jquery-ui.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\modernizr.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\plugincollection.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\js\popper.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\common\_imported.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\common\_mixins.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\common\_rfs.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\common\_typography.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\common\_variables.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\footer\_footer.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\header\_header.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_about.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_banner.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_blog.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_brand-logo.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_case.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_common.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_contact.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_department.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_divider.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_feature.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_form.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_gallery.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_icon-box.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_navbar.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_pricing.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_service.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_team.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\mexi\_testimonial.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\pages\_home-default.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\style.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Product\assets\scss\_tableofcontent.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="31.0.2" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.67.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.27" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+﻿.dropdown-menu-arrow {
+    position: relative;
+}
+
+    .dropdown-menu-arrow::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #ffffff transparent;
+    }
+
+    .dropdown-menu-arrow .dropdown-item {
+        padding-right: 30px;
+    }
+
+        .dropdown-menu-arrow .dropdown-item img {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 20px;
+        }
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.half-size {
+    transform: scale(0.5);
+}
+
+
+
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h5 {
+    cursor: pointer;
+}
+
+.faq .card-body {
+    display: none;
+}
+
+.faq .card-body.active {
+    display: block;
+}

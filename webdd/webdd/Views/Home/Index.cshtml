@@ -1,0 +1,29 @@
+﻿@* @model IEnumerable<webdd.Models.Menu> *@
+
+<div class="container">
+    <header>
+        <h1>長老教會</h1>
+    </header>
+    
+    <div id="content">
+        <h2>最新消息</h2>
+
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a href="#">@item.Title</a>
+                    <span>@item.Date</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 長老教會</p>
+    </footer>
+</div>
+
+@section Scripts {
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js"></script>
+}

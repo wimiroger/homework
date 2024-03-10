@@ -1,0 +1,41 @@
+﻿@model List<CashAdvanceData>
+
+@{
+    Layout = null; // 確保不使用 _Layout.cshtml
+}
+
+@{
+    ViewData["Title"] = "Cash Advance Data(資料來源:政府資料開放平台)";
+}
+
+<style>
+    table {
+        border: 1px solid #ccc;
+        text-align: right;
+    }
+
+        table thead tr th {
+            background-color: #ddd;
+        }
+</style>
+
+<h3>預借現金(資料來源:政府資料開放平台)</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>年份</th>
+            <th>信用卡簽帳消費金額</th>
+            <th>信用卡簽帳消費筆數</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var data in Model)
+        {
+            <tr>
+                <td>@data.Year</td>
+                <td>@data.Amount</td>
+                <td>@data.Transactions</td>
+            </tr>
+        }
+    </tbody>
+</table>
